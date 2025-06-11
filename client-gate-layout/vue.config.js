@@ -5,6 +5,11 @@ module.exports = defineConfig({
     port: 9001,
   },
   configureWebpack: {
-    externals: ["@client-gate/client-gate-shared-dependency", "reka-ui"],
+    externals: [
+      "@client-gate/client-gate-shared-dependency",
+      "reka-ui",
+      "vue",
+      "single-spa",
+    ],
   },
 });
