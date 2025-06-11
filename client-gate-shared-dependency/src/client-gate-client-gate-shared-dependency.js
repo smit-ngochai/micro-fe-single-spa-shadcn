@@ -1,4 +1,6 @@
 import "./set-public-path";
+import "./set-public-path";
+import "./style.css";
 
 import { Checkbox } from "./components/ui/checkbox";
 import { Button } from "./components/ui/Button";

@@ -13,8 +13,6 @@ module.exports = async (webpackConfigEnv, argv) => {
     argv,
   });
 
-  let plugins = [new VueLoaderPlugin()];
-
   const configs = merge(defaultConfig, {
     module: {
       rules: [
@@ -97,8 +95,8 @@ module.exports = async (webpackConfigEnv, argv) => {
         },
       ],
     },
-    externals: [],
-    plugins,
+    externals: ["vue", "single-spa"],
+    plugins: [new VueLoaderPlugin()],
 
     devServer: {
       port: 9003,

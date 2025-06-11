@@ -23,11 +23,13 @@
     "vue-template-compiler": "^2.7.16"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
     "@types/node": "^22.15.26",
     "@vitejs/plugin-vue": "^5.2.3",
     "autoprefixer": "^10.4.21",
     "css-loader": "^7.1.2",
     "postcss": "^8.5.4",
+    "postcss-import": "^16.1.0",
     "postcss-loader": "^8.1.1",
     "sass-loader": "^16.0.5",
     "style-loader": "^4.0.0",

@@ -26,10 +26,8 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "allowSyntheticDefaultImports": true,
     "declaration": false,
-    // "moduleResolution": "bundler",
     "moduleResolution": "node",
     "noEmitOnError": false,
-    // "allowImportingTsExtensions": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
